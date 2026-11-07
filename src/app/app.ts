@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import {DatePipe} from '@angular/common';
+import {DatePipe, DecimalPipe} from '@angular/common';
 
 @Component({
   imports: [
-    DatePipe
+    DatePipe,
+    DecimalPipe
   ],
   selector: 'app-root',
   styleUrl: './app.css',
