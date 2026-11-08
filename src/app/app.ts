@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {DatePipe, DecimalPipe} from '@angular/common';
 import {TemperaturePipe} from './temperature-pipe';
+import {SortPipe} from './sort-pipe';
 
 @Component({
   imports: [
     DatePipe,
     DecimalPipe,
-    TemperaturePipe
+    TemperaturePipe,
+    SortPipe
   ],
   selector: 'app-root',
   styleUrl: './app.css',
